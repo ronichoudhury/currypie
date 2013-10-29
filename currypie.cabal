@@ -1,0 +1,12 @@
+Name:              currypie
+Version:           0.0
+Description:       Reimplementation of CherryPy in Haskell
+License:           AllRightsReserved
+Author:            A.N.M. Imroz Choudhury
+Maintainer:        aichoudh@gmail.com
+Build-Type:        Simple
+Cabal-Version:     >=1.2
+
+Executable currypie
+  Main-is:         currypie.hs
+  Build-Depends:   base >= 3 && < 5, network
